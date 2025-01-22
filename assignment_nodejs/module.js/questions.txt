@@ -1,0 +1,23 @@
+Create a math.js file that exports two functions: add(a, b) and multiply(a, b). Write a script to import these functions and use them to calculate the sum and product of two numbers.
+
+Write a greeting.js module that exports a single function to print a greeting message using commonjs. Import it into another file and call the function.
+
+Create a utility.mjs module that exports two functions: toUpperCase(string) and toLowerCase(string). Import them into another file and demonstrate their usage.
+
+Create a config.mjs file that contains a default export with some configuration values (e.g., port and dbURL) and a named export for a helper function. Import them into another file and log the configuration and result of the helper function. config is just a object like const config = {port:”800”,url:”thisurl”}
+
+Write a Node.js script to read the contents of a file and print them to the console. If the file does not exist, create one and write some default text into it.
+
+Create a program that appends a new line of text to an existing file. Ensure that the file is created if it does not already exist.
+
+Write a function that takes a file path as input and returns the directory name, base name, and extension of the file
+
+Parse the following URL using the url module:
+https://example.com:8080/path/to/page?name=John&age=30#section2
+Extract and log the protocol, hostname, path, query parameters, and hash.
+
+Write a program that creates a URL object, adds query parameters dynamically, and then converts the URL object back to a string. Hint:myUrl.searchParams.append(“key”,”value”);appen
+
+Create a custom event emitter that listens for an event called greet. When the event is emitted, it should print a greeting message to the console.
+
+Write a script that lists all files in a directory and prints their absolute paths. Use the fs module to read the directory and the path module to resolve absolute paths. Hint
